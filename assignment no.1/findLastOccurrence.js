@@ -1,5 +1,3 @@
-// Find Last Occurrence Using Binary Search
-
 function findLastOccurrence(values, target) {
     let left = 0;
     let right = values.length - 1;
@@ -21,14 +19,11 @@ function findLastOccurrence(values, target) {
     return result;
 }
 
-// Input
 const values = [1, 2, 2, 2, 3, 4, 5];
 const target = 3;
 
-// Find Last Occurrence
 const lastOccurrence = findLastOccurrence(values, target);
 
-// Output
 console.log("Array :", values);
 console.log("Target :", target);
 console.log("Last Occurrence :", lastOccurrence);
