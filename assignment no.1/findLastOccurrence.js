@@ -8,7 +8,7 @@ function findLastOccurrence(values, target) {
 
         if (values[mid] === target) {
             result = mid;
-            left = mid + 1; // Search on the right side
+            left = mid + 1;
         } else if (values[mid] < target) {
             left = mid + 1;
         } else {
